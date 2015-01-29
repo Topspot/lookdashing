@@ -1,0 +1,109 @@
+/*
+Tutorial Name: Caption Hover Animation with CSS3 transform and transitions
+Author: Samuel Dalusung
+*/
+
+/*= MAIN STYLES
+--------------------------------------------------------*/
+
+
+/*body {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    background: #f3b204;
+    text-align: center;
+    width: 100%;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans';
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px rgba(150,150,150,1);
+    margin: 20px auto 0;
+}
+
+.header h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Pacifico;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px rgba(150,150,150,1);
+    margin-top: -7px;
+}*/
+
+/*= NAV
+--------------------------------------------------------*/
+/*.menu a {
+    background: transparent;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 100%;
+    margin: 0 5px;
+    padding: 9px 18px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans';
+    border: 2px solid #fff;
+}
+
+.menu a.active,.menu a:hover {
+    background: #fff;
+    color: #f3b204;
+}*/
+
+
+
+/*= LIST
+--------------------------------------------------------*/
+/*
+ul {
+    display: inline-block;
+    width: 97.1%;
+    height: auto;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 50px 0 0;
+}
+
+ul li:nth-child(2) {
+    margin-right: 4px;
+    margin-left: 4px;
+}*/
+
+
+
+/*= FOOTER
+--------------------------------------------------------*/
+
+/*footer {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin: 20px 0 0;
+}
+
+footer span {
+    margin: 0;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+footer a {
+    color: #747474;
+}*/
