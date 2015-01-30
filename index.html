@@ -10,6 +10,7 @@
         <link href="css/style.css" media="screen" rel="stylesheet"/>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
         <style>
             img {
                 width: 100%;
@@ -93,20 +94,9 @@
                 background: #fff;
             }
         </style>	 
-        <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />-->
-        <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />-->
-        
-<!--        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/style_common.css" />-->
-<!--<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
-<link rel="stylesheet" href="css/common.css" type="text/css" media="screen"/>
-<link rel="stylesheet" href="css/thirdeffect.css" type="text/css" media="screen"/>-->
-        <!--<link rel="stylesheet" type="text/css" href="css/style1.css" />-->
-        <!--<link rel="stylesheet" type="text/css" href="css/style3.css" />-->
-<!--        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
-        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
-            <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>-->
-            <script src="js/jquery.js" type="text/javascript"></script>
+	
+
+<script src="js/jquery.js" type="text/javascript"></script>
 
     </head>
     <body>
@@ -127,7 +117,25 @@
             </div><!--main-header end-->
             <div class="main-header-light">
                 <div class="wall">
-                    <div class="head-div">  </div>
+                    <div class="head-div">
+                    <!-- Place somewhere in the <body> of your page -->
+                        <div class="flexslider">
+                          <ul class="slides">
+                            <li>
+                              <img src="images/slide1.jpg" />
+                            </li>
+                            <li>
+                              <img src="images/slide2.jpg" />
+                            </li>
+                            <li>
+                              <img src="images/slide3.jpg" />
+                            </li>
+                            <li>
+                              <img src="images/slide4.jpg" />
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="main-header-dark">    
@@ -260,220 +268,200 @@
                             </form> 
                         </div>
                         <div class="main-content-box">
-<!--                             <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                       
-                             </div>-->
+
                             
- <div class="item-box">
-                 
-                <figure>
-                    <img src="images/image-item.jpg" alt="nerd girl">
-                      
-                    <figcaption>
-                        <div class="item-star"></div>                        
-                        <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
-                         <div class="fivestar"></div>
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
 
-                        <!--<p><a href="#">Read More</a></p>-->
-                         <div class="item-options">
-                            <a href="#" class="option-price">$250</a>
-                            <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                            <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                            <a href="#"class="option-detail">View Details</a>
-                        </div>
-                    </figcaption>
-                </figure>
-      <!--<div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>-->
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
 
- </div>
-
-                        <!--<div class="item-box">-->
-<!--                            <div class="view view-third">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <div class="item-star"></div>
-                                    <div class="fivestar"></div>
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
                                     
-                                     
-                                                <div class="item-options">
-                                                    <a href="#" class="option-price">$250</a>
-                                                    <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                                    <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                                    <a href="#"class="option-detail">View Details</a>
-                                                </div>
-                                </div>
-                            </div>-->
-<!--                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <div class="item-star"></div>
-                                    <div id="box"></div>
-                                   <div class="fivestar"></div>
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> -->
-<!--                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>-->
-                        <!--</div>-->
-                                    
-<!--                        <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                        </div>
-                        <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                        </div>
-                        <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                        </div>
-                       <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                        </div>
-                        <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                        </div>
-                        <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                        </div>
-                        <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                        </div>
-                       <div class="item-box">
-                            <div class="view view-first">
-                                <img src="images/image-item.jpg" />
-                                
-                                <div class="mask">
-                                    <p><i class="fa fa-search search-icon fa-2x"></i></p>
-                                    <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
-                        </div>-->
-                          
+                            </div>                 
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
 
-<!--	<div class="view third-effect">
-		<img src="images/1.jpg" />
-        <div class="mask">
-             <p><i class="fa fa-search search-icon fa-2x"></i></p>
-              <div class="item-options">
-                                        <a href="#" class="option-price">$250</a>
-                                        <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
-                                        <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
-                                        <a href="#"class="option-detail">View Details</a>
-                                    </div>
-			<a href="#" class="info"></a>
-                        <a href="#" class="option-price">$250</a>
-		</div>
-	</div>-->
-                                         
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
+
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
+                                    
+                            </div>                 
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
+
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
+
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
+                                    
+                            </div>
+                            <div style="margin-bottom: 20px; border-top: 2px solid #ede8dd; border-bottom: 2px solid #fff; width: 100%; height: 0px; float: left;"></div>
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
+
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
+
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
+                                    
+                            </div>                 
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
+
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
+
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
+                                    
+                            </div>                 
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
+
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
+
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
+                                    
+                            </div>
+                            <div style="margin-bottom: 20px; border-top: 2px solid #ede8dd; border-bottom: 2px solid #fff; width: 100%; height: 0px; float: left;"></div>
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
+
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
+
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
+                                    
+                            </div>                 
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
+
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
+
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
+                                    
+                            </div>                 
+                            <div class="item-box">
+                                <figure>
+                                    <img src="images/image-item.jpg" alt="nerd girl">
+
+                                        <figcaption>
+                                            <div class="item-star"></div>                        
+                                            <div class="item-search-icon"><i class="fa fa-search search-icon fa-2x"></i></div>     
+                                            <div class="fivestar"></div>
+
+                                            <!--<p><a href="#">Read More</a></p>-->
+                                            <div class="item-options">
+                                                <a href="#" class="option-price">$250</a>
+                                                <a href="#" class="option-cart"><i class="fa fa-cart-plus"></i></a>
+                                                <a href="#"class="option-heart"><i class="fa fa-heart"></i><div class="likes-no">150</div></a>
+                                                <a href="#"class="option-detail">View Details</a>
+                                            </div>
+                                        </figcaption>
+                                </figure>
+                                <div class="item-box-text"> <span style="font-size:14px; color: #801d0a; margin-bottom: 10px;" >Gucci ready to wear</span></br> <p style="margin-top: 6px;">Enim ad minim veniam quis nostrud exercitation</p></div>
+                                    
+                            </div>           
+                
                 
                     </div>
                     </div>
@@ -511,27 +499,26 @@
         </div><!--wrapper end-->
     </body>
 </html>
+<script defer src="js/jquery.flexslider.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
-//$(".item-box .hover-item-box-image").css("visibility","hidden");
-//            $(".item-box .item-box-image").hover(function () {
-//                 $(this).hide();
-//                 $(".hover-item-box-image").show();
-//           });
+        // Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+$('.flex-prev').html('<i class="fa fa-arrow-left"></i>');
+$('.flex-next').html('<i class="fa fa-arrow-right"></i>');
 
-//    $(".item-box .hover-item-box-image").hover(function () {
-//    $(this).css("visibility","visible");
-//    $(".item-box .item-box-image").hide();
-//      },
-//      function () {
-//        $(this).css("visibility","hidden");
-//      });
+
 $(function() {
     
-    $("figcaption").hover(function() {        
-       $(this).css("height", "100%");
+    $("figure").hover(function() {        
+        $(this).find('figcaption').css("display", "block");
+       
     }, function() {
-      $(this).css("height", "0px");
+         $(this).find('figcaption').css("display", "none");     
     });
     
 });
@@ -562,18 +549,6 @@ $(function() {
     });
     
 });
-
-//$('.item-box').hover(function() {
-//        $(this).find('.item-box-image').hide();
-//        $(this).find('.hover-item-box-image').show().stop().animate({
-//opacity: .7
-//}, "slow");
-//    }, function() {
-//        $(this).find('.hover-item-box-image').hide().stop().animate({
-//opacity: 0
-//}, "slow");
-//        $(this).find('.item-box-image').show();
-//});
 });
     
 

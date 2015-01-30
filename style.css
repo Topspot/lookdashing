@@ -472,12 +472,12 @@ padding-top: 20px;
     color: #000;
    font-family: arial;
      font-size: 12px;
-     padding: 13px 2px;
+     padding: 13px 2px 22px;
      text-align: left;
      /*height: 79px;*/
      /*text-align: left;*/
 }
-.main-content-box .item-box:nth-child(1) , .item-box:nth-child(4), .item-box:nth-child(7) {
+.main-content-box .item-box:nth-child(1) , .item-box:nth-child(5), .item-box:nth-child(9) {
     margin-left:0px !important;  
 }
 .option-price{
@@ -576,12 +576,13 @@ padding-top: 20px;
     padding:53px 81px 104px;
 }
 .fivestar{
-    width: 32px;
-    height: 26px;
- background:url(images/likes.png) no-repeat left top;
+     height: 26px;
     position: absolute;
-    right: -4px;
-    top: -25px;
+    right: -17px;
+    top: -26px;
+    width: 66px;
+    background:url(images/start-tooltip.png) no-repeat left top;
+
     
     /*display: none;*/
 }
